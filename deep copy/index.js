@@ -1,5 +1,5 @@
 
-
+"use strict";
     function deepCopy(element) {
         var copAr = [];
         var cop = {};
@@ -22,8 +22,7 @@
         } else return element
     }
 
-var i = document.createElement("p");
-    i.appendChild()
+
 
 
     var h1={ a:5, b:{b1:6,b2:7}, c:[33,22], d:null, e:undefined, f:Number.NaN };
